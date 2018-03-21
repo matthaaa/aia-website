@@ -1,0 +1,108 @@
+@import 'partials/reset';
+
+// ==================================================
+// Colors
+// ==================================================
+$blue: #00154f;
+$gray: #818D92;
+$yellow: #E3D26F;
+
+$primary-font: 'Raleway', sans-serif;
+
+header {
+  padding-top: 80px;
+
+  img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+// ==================================================
+// Navigation Bar
+// ==================================================
+nav {
+  height: 80px;
+  padding: 0 50px;
+  background-color: $blue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  font-family: $primary-font;
+
+  h3 {
+    color: white;
+  }
+
+  ul a:hover {
+    text-decoration: underline;
+  }
+
+  ul {
+    height: 80px;
+    height: 100%;
+  }
+
+  ul li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  ul li a {
+    margin-right: 12px;
+    padding: 5px 0px;
+    padding-right: 12px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid white;
+  }
+
+  ul li:last-of-type a {
+    margin-right: 0px;
+    padding-right: 0px;
+    border-right: 0px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+}
+
+nav ul {
+  justify-content: space-between;
+  display: flex;
+  height: 100%;
+}
+
+// ==================================================
+// Section
+// ==================================================
+section {
+  padding: 120px 50px;
+  font-family: $primary-font;
+
+  h2 {
+    font-size: 24px;
+  }
+}
+
+#schedule, #merchandise {
+  background-color: $yellow;
+}
+
+.section-body {
+  margin-top: 20px;
+
+  .description {
+    padding-top: 20px;
+    line-height: 28px;
+  }
+}

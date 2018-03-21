@@ -1,0 +1,110 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+header {
+  padding-top: 80px; }
+  header img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover; }
+
+nav {
+  height: 80px;
+  padding: 0 50px;
+  background-color: #00154f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  font-family: "Raleway", sans-serif; }
+  nav h3 {
+    color: white; }
+  nav ul a:hover {
+    text-decoration: underline; }
+  nav ul {
+    height: 80px;
+    height: 100%; }
+  nav ul li {
+    height: 100%;
+    display: flex;
+    align-items: center; }
+  nav ul li a {
+    margin-right: 12px;
+    padding: 5px 0px;
+    padding-right: 12px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid white; }
+  nav ul li:last-of-type a {
+    margin-right: 0px;
+    padding-right: 0px;
+    border-right: 0px; }
+  nav h3 {
+    font-size: 25px; }
+
+nav ul {
+  justify-content: space-between;
+  display: flex;
+  height: 100%; }
+
+section {
+  padding: 120px 50px;
+  font-family: "Raleway", sans-serif; }
+  section h2 {
+    font-size: 24px; }
+
+#schedule, #merchandise {
+  background-color: #E3D26F; }
+
+.section-body {
+  margin-top: 20px; }
+  .section-body .description {
+    padding-top: 20px;
+    line-height: 28px; }
+
+/*# sourceMappingURL=style.css.map */
