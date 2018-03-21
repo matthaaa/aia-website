@@ -41,15 +41,8 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-header {
-  padding-top: 80px; }
-  header img {
-    height: 400px;
-    width: 100%;
-    object-fit: cover; }
-
 nav {
-  height: 80px;
+  height: 90px;
   padding: 0 50px;
   background-color: #00154f;
   display: flex;
@@ -60,7 +53,10 @@ nav {
   left: 0;
   right: 0;
   z-index: 1000;
-  font-family: "Raleway", sans-serif; }
+  font-family: "Raleway", sans-serif;
+  box-shadow: 0px 0px 10px 0px #000000; }
+  nav .nav-bar-title img {
+    height: 100px; }
   nav h3 {
     color: white; }
   nav ul a:hover {
@@ -92,11 +88,28 @@ nav ul {
   display: flex;
   height: 100%; }
 
+header {
+  padding-top: 80px; }
+  header img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 70%; }
+  header .aia-logo-container {
+    position: absolute;
+    top: 120px;
+    right: 0;
+    left: 0; }
+    header .aia-logo-container img {
+      object-fit: cover;
+      width: 850px;
+      height: 100%; }
+
 section {
   padding: 120px 50px;
   font-family: "Raleway", sans-serif; }
   section h2 {
-    font-size: 24px; }
+    font-size: 40px; }
 
 #schedule, #merchandise {
   background-color: #E3D26F; }

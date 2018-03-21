@@ -9,21 +9,11 @@ $yellow: #E3D26F;
 
 $primary-font: 'Raleway', sans-serif;
 
-header {
-  padding-top: 80px;
-
-  img {
-    height: 400px;
-    width: 100%;
-    object-fit: cover;
-  }
-}
-
 // ==================================================
 // Navigation Bar
 // ==================================================
 nav {
-  height: 80px;
+  height: 90px;
   padding: 0 50px;
   background-color: $blue;
   display: flex;
@@ -35,6 +25,13 @@ nav {
   right: 0;
   z-index: 1000;
   font-family: $primary-font;
+  box-shadow: 0px 0px 10px 0px #000000;
+
+  .nav-bar-title {
+    img {
+      height: 100px;
+    }
+  }
 
   h3 {
     color: white;
@@ -83,6 +80,34 @@ nav ul {
 }
 
 // ==================================================
+// Header
+// ==================================================
+header {
+  padding-top: 80px;
+
+  img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 70%;
+  }
+
+  .aia-logo-container {
+    position: absolute;
+    top: 120px;
+    right: 0;
+    left: 0;
+
+    img {
+      object-fit: cover;
+      width: 850px;
+      height: 100%;
+    }
+  }
+
+}
+
+// ==================================================
 // Section
 // ==================================================
 section {
@@ -90,7 +115,7 @@ section {
   font-family: $primary-font;
 
   h2 {
-    font-size: 24px;
+    font-size: 40px;
   }
 }
 
